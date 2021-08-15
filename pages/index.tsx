@@ -4,9 +4,9 @@ import type {
   NextPage,
 } from "next";
 import Head from "next/head";
-import Header from "./components/Header/Header";
-import Nav from "./components/Nav/Nav";
-import Resutls from "./components/Results/Resutls";
+import Header from "../components/Header/Header";
+import Nav from "../components/Nav/Nav";
+import Resutls from "../components/Results/Resutls";
 import handler from "../utils/handler";
 import { Data } from "../utils/types";
 

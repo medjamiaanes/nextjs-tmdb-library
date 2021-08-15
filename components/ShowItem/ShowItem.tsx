@@ -1,6 +1,6 @@
 import styles from "./showitem.module.css";
 import Image from "next/image";
-import { Data } from "../../../utils/types";
+import { Data } from "../../utils/types";
 
 type Props = {
   data: Data;

@@ -1,6 +1,6 @@
 import styles from "./results.module.css";
 import ShowItem from "../ShowItem/ShowItem";
-import { Data } from "../../../utils/types";
+import { Data } from "../../utils/types";
 
 type Props = {
   results: Array<Data>;

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./nav.module.css";
-import requests from "../../../utils/_requests";
+import requests from "../../utils/_requests";
 import { useRouter } from "next/dist/client/router";
 function Nav() {
   const router = useRouter();
