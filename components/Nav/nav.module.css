@@ -18,7 +18,7 @@
     cursor: pointer;
     transition: 0.5s;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     min-width: max-content;
     margin-right: 10px;
     text-transform: capitalize;
@@ -33,6 +33,8 @@
     margin-right: 25px;
 }
 
+
+
 .overlay {
     position: fixed;
     top: 0;
@@ -46,10 +48,10 @@
     display: block;
 }
 
-@media all and (max-width: 769px){
+@media all and (min-width: 769px){
   .navItem {
       margin-right: 0px;
-      font-size: 1.3rem;
+      font-size: 1.4rem;
   }
   .navItem:hover {
     color: #49bdc2;
@@ -61,7 +63,7 @@
 
 @media all and (max-width: 413px){
     .navItem {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
   }
   
