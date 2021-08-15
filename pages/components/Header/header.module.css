@@ -1,0 +1,14 @@
+.header {
+    height: auto;
+    width: 100%;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media all and (min-width: 769px) {
+    .header {
+        justify-content: flex-start;
+    }
+}

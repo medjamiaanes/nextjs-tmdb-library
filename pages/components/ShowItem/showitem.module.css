@@ -1,0 +1,61 @@
+.container {
+    padding: 16px;   
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    flex: 1;
+    min-width: 450px;
+}
+
+.container:hover{
+    transform: scale(1.1,1.1);
+    z-index: 2;
+    padding: 24px;
+}
+
+.title {
+    color: #547c81;
+    margin-top: 8px;
+    font-size: 1.2rem;
+    transition: 0.5s all ease-in-out;
+    text-transform: capitalize;
+}
+.container:hover .title {
+    color: #49bdc2;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+.container:hover .details {
+    opacity: 1;
+    margin-top: 4px;
+}
+
+.detail {
+    display: flex;
+    font-size: 0.9rem;
+    align-items: center;
+    margin-right: 8px;
+    color: #547c81;
+}
+.detailIcon {
+    color: #49bdc2;
+    margin-right: 4px;
+}
+.overview {
+    color: #547c81;
+    font-size: 0.95rem;
+    transition: 0.2s;
+}
+
+.container:hover .overview {
+    margin-top: 4px;
+}
+@media all and (max-width: 460px) {
+    .container {
+        min-width: 320px;
+    }
+}
