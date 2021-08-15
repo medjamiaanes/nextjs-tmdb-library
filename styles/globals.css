@@ -16,7 +16,7 @@ input {
   border: none;
 }
 
-@media all and (min-width: 1400px){
+@media all and (min-width: 1600px){
    header {
      padding: 15px 150px !important;
    }

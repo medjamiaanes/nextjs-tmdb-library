@@ -18,7 +18,7 @@
     cursor: pointer;
     transition: 0.5s;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     min-width: max-content;
     margin-right: 10px;
     text-transform: capitalize;
@@ -31,13 +31,6 @@
 }
 .navItem:last-child {
     margin-right: 25px;
-}
-
-.navItem:hover {
-    color: #49bdc2;
-    opacity: 1;
-    transform: scale3d(1.5, 1.5, 2);
-    margin: 0px 15px;
 }
 
 .overlay {
@@ -53,12 +46,24 @@
     display: block;
 }
 
-@media all and (min-width: 769px){
+@media all and (max-width: 769px){
   .navItem {
       margin-right: 0px;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
+  }
+  .navItem:hover {
+    color: #49bdc2;
+    opacity: 1;
+    transform: scale3d(1.5, 1.5, 2);
+    margin: 0px 15px;
   }
 }
 
+@media all and (max-width: 413px){
+    .navItem {
+        font-size: 1.2rem;
+    }
+  }
+  
 
 
